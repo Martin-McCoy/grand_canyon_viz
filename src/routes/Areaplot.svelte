@@ -74,12 +74,12 @@
 		{/each}
   </svg>
 	
-	<svg class ="triangle-left">
-    <polygon points="0,0 0,800 200,800" />
+	<svg class ="triangle-left" viewBox="0 0 20 100">
+    <polygon points="0,0 0,100 80,500" />
   </svg>
 
-  <svg class ="triangle-right">
-    <polygon points="300,800 300,0 100,800" />
+  <svg class ="triangle-right" viewBox="0 0 20 100">
+    <polygon points="20,0 20,100 0,150" />
   </svg>
 	
 </div>
