@@ -52,10 +52,6 @@
     .range([height - margin.top, margin.bottom]);
 </script>
 
-<h2 class="chart-title">
-	Lake Powell Elevation Level
-</h2>
-
 <div
   class="chart-container"
   bind:offsetWidth={width}
@@ -88,7 +84,7 @@
   .chart-container {
 		position: relative;
 		margin: 10px;
-    height: 80vh;
+    height: 90vh;
     max-width: 100%;
 		background: skyblue;
 		border-radius: 5px;
@@ -116,9 +112,4 @@
 		fill: #D4AB6D;
 		border-radius: 5px;
 	}
-	
-	.chart-title {
-		font-size: 35px;
-	}
-
 </style>

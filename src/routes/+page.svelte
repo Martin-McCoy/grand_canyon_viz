@@ -56,8 +56,8 @@
 	
 	.hero {
 		height: 60vh;
-		font-size: 60px;
-		margin: 0px 40px 0px 40px;
+		font-size: 4rem;
+		margin: 0 3em;
 		display: flex;
 		place-items: center;
 		flex-direction: column;
@@ -142,6 +142,9 @@
     .sticky {
       width: 95%;
 			margin: auto;
+    }
+    .hero {
+      font-size: 3rem;
     }
   }
 </style>
